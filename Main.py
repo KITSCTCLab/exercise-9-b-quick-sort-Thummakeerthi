@@ -19,7 +19,7 @@ def quick_sort(data, low, high) -> List[int]:
         return data
 
 input_data = input()
-data = 
+data = []
 for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
